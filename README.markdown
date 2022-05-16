@@ -110,11 +110,19 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
   description: "An awesome sample post.""
   show: true
   date_time: "2022/04/15"
+  tags: "new jekyll update post"
   ---
   ## Your awesome post
   Your awesome text.
   ```
-- 8.) Enjoy. :heart_on_fire:
+- 9.) To setup a navigation menu, create a folder called `_data` and create a file in this folder called `nvaigation.yml`. To add navigation links, please add links in this fashion:
+```YAML
+- name: "HOME"
+  url: "/"
+- name: "ABOUT"
+  url: "/content/about"
+```
+- 10.) Enjoy. :heart_on_fire:
 
 ## Note :scroll:
 - *Neon Future :pill: :racing_car: :fire:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
