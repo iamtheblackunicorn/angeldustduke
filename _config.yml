@@ -35,7 +35,7 @@ motto: "LOVE IS THE MESSAGE!"
 menuText: "MENU"
 closeNavText: "CLOSE"
 viewText: "READ ME!"
-url: "https://blackunicorn.art/neon-future"
+url: "https://blckunicorn.art"
 baseurl: "/neon-future"
 feed:
   path: "rss.xml"
