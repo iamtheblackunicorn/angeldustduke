@@ -46,7 +46,7 @@ $ git clone https://your_github_token@github.com/iamtheblackunicorn/neon-future.
 ```
 - 3.) Change directory into the source's root directory:
 ```bash
-$ cd angeldustduke
+$ cd neon-future
 ```
 - 4.) Install the dependencies:
 ```bash
