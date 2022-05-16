@@ -1,0 +1,310 @@
+/*
+NEON FUTURE by Alexander Abraham,
+a.k.a. "The Black Unicorn", a.k.a. "Angeldust Duke".
+Licensed under the MIT license.
+*/
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $mainColor;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img.profile {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 8px solid $accentColor;
+  box-shadow: 1px 2px 25px $accentColor;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: $accentColor;
+  font-family: $mainHeadingFont;
+  text-shadow: 1px 2px 25px $accentColor;
+  text-align: center;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  transition-duration: 0.6s;
+}
+
+h1:hover {
+  text-shadow: 1px 2px 25px $hoverColor;
+}
+
+p.subtitle {
+  color: $accentColor;
+  font-family: $headingFont;
+  text-shadow: 1px 2px 25px $accentColor;
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+  font-size: 40px;
+}
+
+div.content {
+  border: 8px solid $accentColor;
+  box-shadow: 1px 2px 25px $accentColor;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  background-color: $mainColor;
+  width: 80%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+div.linkDiv {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: repeating-linear-gradient(
+    135deg,
+    $accentColor,
+    $accentColor 10px,
+    $mainColor 10px,
+    $mainColor 20px
+  );
+}
+
+h2 {
+  padding: 0px;
+  margin: 20px;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: $accentColor;
+  font-family: $headingFont;
+  text-shadow: 1px 2px 25px $accentColor;
+  text-align: left;
+}
+
+h3 {
+  padding: 0px;
+  margin: 20px;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: $accentColor;
+  font-family: $headingFont;
+  text-shadow: 1px 2px 25px $accentColor;
+  text-align: left;
+}
+
+h4 {
+  padding: 0px;
+  margin: 20px;
+  font-size: 39px;
+  text-transform: uppercase;
+  color: $accentColor;
+  font-family: $headingFont;
+  text-shadow: 1px 2px 25px $accentColor;
+  text-align: left;
+}
+
+p {
+  padding: 0px;
+  margin: 20px;
+  font-size: 35px;
+  color: $accentColor;
+  font-family: $contentFont;
+  text-shadow: 12px 2px 25px $accentColor;
+  text-align: left;
+}
+
+button.postLink {
+  padding: 10px;
+  margin: 10px;
+  font-size: 35px;
+  transition-duration: 0.6s;
+  border-radius: 25px;
+  border: 5px solid $accentColor;
+  background-color: $accentColor;
+  color: $mainColor;
+  text-shadow: 1px 2px 25px $mainColor;
+  box-shadow: 1px 2px 25px $accentColor;
+  font-family: $contentFont;
+}
+
+button.postLink:hover {
+  background-color: $mainColor;
+  color: $accentColor;
+  text-shadow: 1px 2px 25px $accentColor;
+}
+
+a {
+  padding: 0px;
+  font-size: 35px;
+  color: $hoverColor;
+  text-decoration: underline;
+  transition-duration: 0.6s;
+  font-family: $contentFont;
+  text-shadow: 12px 2px 25px $accentColor;
+  text-align: left;
+}
+
+a:hover {
+  color: $accentColor;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px;
+  border: 5px solid $accentColor;
+}
+
+ul.nav {
+  margin: 0 auto;
+  display: block;
+  list-style:none;
+  padding: 0px;
+  margin-top: 25vh;
+  margin-bottom: 0px;
+}
+
+li.nav {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+a.nav {
+  padding: 0px;
+  font-size: 35px;
+  color: $accentColor;
+  text-decoration: underline;
+  transition-duration: 0.6s;
+  font-family: $contentFont;
+  text-shadow: 12px 2px 25px $accentColor;
+  text-align: left;
+}
+
+a.nav:hover {
+  color: $hoverColor;
+}
+
+ul {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: $tertiaryFont;
+  color: $mainColor;
+}
+
+li {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  font-size: 35px;
+  color: $accentColor;
+  padding: 20px;
+  font-family: $contentFont;
+  text-shadow: 12px 2px 25px $accentColor;
+}
+
+div.nav {
+  width: 0vw;
+  height: 0vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  overflow: hidden;
+  transition-duration: 0.6s;
+  background-color: $mainColor;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.6s;
+}
+
+code {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  overflow-x: scroll;
+  font-family: $tertiaryFont;
+  font-size: 30px;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: left;
+  background-color: $accentColor;
+  color: $mainColor;
+}
+
+code.language-plaintext {
+  width:auto;
+  display: inline;
+  padding: 2px;
+  margin: 0;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: $accentColor;
+  font-family: $tertiaryFont;
+  color: $mainColor;
+}
+
+img.emoji {
+  display: inline;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  border: none;
+}
+
+div.stripeBottom {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  background: repeating-linear-gradient(
+    135deg,
+    $accentColor,
+    $accentColor 10px,
+    $mainColor 10px,
+    $mainColor 20px
+  );
+}

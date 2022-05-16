@@ -1,0 +1,6 @@
+- name: "HOME"
+  url: "/"
+- name: "SOCIALS"
+  url: "/content/socials"
+- name: "SOURCE"
+  url: "https://github.com/iamtheblackunicorn/angeldustduke"

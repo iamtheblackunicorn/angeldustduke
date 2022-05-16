@@ -1,0 +1,70 @@
+/*
+NEON FUTURE by Alexander Abraham,
+a.k.a. "The Black Unicorn", a.k.a. "Angeldust Duke".
+Licensed under the MIT license.
+*/
+
+@media screen and (max-width: 800px) {
+  img.profile {
+    width: 250px;
+    height: 250px;
+    border: 6px solid $accentColor;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p.subtitle {
+    font-size: 35px;
+  }
+  div.content {
+    border: 6px solid $accentColor;
+    width: 90%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 29px;
+  }
+  p {
+    font-size: 25px;
+  }
+  button.postLink {
+    font-size: 25px;
+  }
+  a {
+    font-size: 25px;
+  }
+  img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 6px solid $accentColor;
+  }
+  ul.nav {
+    margin-top: 15vh;
+  }
+  li.nav {
+    margin-bottom: 10px;
+  }
+  a.nav {
+    font-size: 25px;
+  }
+  li {
+    font-size: 25px;
+  }
+  code {
+    font-size: 25px;
+  }
+  code.language-plaintext {
+    font-size: 25px;
+  }
+  img.emoji {
+    width: 25px;
+    height: 25px;
+  }
+}

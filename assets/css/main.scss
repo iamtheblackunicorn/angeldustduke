@@ -1,0 +1,31 @@
+---
+---
+$mainColor: {{ site.mainColor }};
+$accentColor: {{ site.accentColor }};
+$hoverColor: {{ site.hoverColor }};
+$headingFont: "{{ site.headingFont }}";
+$headingFontUrl: "{{ site.headingFontUrl }}";
+$contentFont: "{{ site.contentFont }}";
+$contentFontUrl: "{{ site.contentFontUrl }}";
+$tertiaryFont: "{{ site.tertiaryFont }}";
+$tertiaryFontUrl: "{{ site.tertiaryFontUrl }}";
+$mainHeadingFont: "{{ site.mainHeadingFont }}";
+$mainHeadingFontUrl: "{{ site.mainHeadingFontUrl }}";
+@font-face {
+  font-family: "#{$contentFont}";
+  src: url("#{$contentFontUrl}") format('truetype');
+}
+@font-face {
+  font-family: "#{$headingFont}";
+  src: url("#{$headingFontUrl}") format('truetype');
+}
+@font-face {
+  font-family: "#{$mainHeadingFont}";
+  src: url("#{$mainHeadingFontUrl}") format('truetype');
+}
+@font-face {
+  font-family: "#{$tertiaryFont}";
+  src: url("#{$tertiaryFontUrl}") format('truetype');
+}
+@charset 'utf-8';
+@import 'neon-future';

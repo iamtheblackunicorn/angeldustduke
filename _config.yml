@@ -1,0 +1,48 @@
+mainColor: "#000000"
+accentColor: "#EA1573"
+hoverColor: "#4562E7"
+headingFont: "Triest"
+headingFontUrl: "https://blckunicorn.art/assets/fonts/Triest.ttf"
+contentFont: "Axeon"
+contentFontUrl: "https://blckunicorn.art/assets/fonts/Axeon.ttf"
+tertiaryFont: "Mono"
+tertiaryFontUrl: "https://blckunicorn.art/assets/fonts/Mono.ttf"
+mainHeadingFont: "Hellraiser"
+mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/Hellraiser.ttf"
+analyticsID: ""
+name: "ANGELDUST DUKE"
+keywords: "developer, code, flutter, dart, rust lang, blogging, art, python, compiler"
+description: "Angeldust Duke: a bad b*tch, a creative soul, and eccentric as f*ck."
+iconUrlIsAbsolute: false
+57x57: "/assets/images/favicons/apple-icon-57x57.png"
+60x60: "/assets/images/favicons/apple-icon-60x60.png"
+72x72: "/assets/images/favicons/apple-icon-72x72.png"
+76x76: "/assets/images/favicons/apple-icon-76x76.png"
+114x114: "/assets/images/favicons/apple-icon-114x114.png"
+120x120: "/assets/images/favicons/apple-icon-120x120.png"
+144x144: "/assets/images/favicons/apple-icon-144x144.png"
+152x152: "/assets/images/favicons/apple-icon-152x152.png"
+180x180: "/assets/images/favicons/apple-icon-180x180.png"
+192x192: "/assets/images/favicons/android-icon-192x192.png"
+32x32: "/assets/images/favicons/favicon-32x32.png"
+96x96: "/assets/images/favicons/favicon-96x96.png"
+16x16: "/assets/images/favicons/favicon-16x16.png"
+siteManifest: "/assets/images/favicons/manifest.json"
+144x144: "/assets/images/favicons/ms-icon-144x144.png"
+banner: "/assets/images/banner/banner.png"
+profile_pic: "/assets/images/logo/logo.svg"
+motto: "LOVE IS THE MESSAGE!"
+menuText: "MENU"
+closeNavText: "CLOSE"
+viewText: "READ ME!"
+url: "https://angeldustduke.art"
+baseurl: ""
+feed:
+  path: "rss.xml"
+plugins:
+  - jemoji
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - sassc

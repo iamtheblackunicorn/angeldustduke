@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+ <html>
+ {% include header.html %}
+ <body>
+  {% include heading.html %}
+  {% include nav.html %}
+  {% for post in site.posts %}
+   <div class="content">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.date_time }}</p>
+    <p>{{ post.description }}</p>
+    <div class="linkDiv">
+     <button class="postLink" onclick="window.location.href='{{ post.url | prepend: site.baseurl }}'">{{ site.viewText }}</button>
+    </div>
+   </div>
+   {% include breaker.html %}
+   {% endfor %}
+   {% include javascript.html %}
+ </body>
+</html>
+{% include breaker.html %}
