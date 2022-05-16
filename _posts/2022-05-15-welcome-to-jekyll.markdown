@@ -2,6 +2,7 @@
 layout: "post"
 title:  "Welcome to Jekyll!"
 date_time: "2022/05/15"
+show: true
 description: "A small introductory post to Jekyll"
 tags: "jekyll update welcome"
 ---
