@@ -40,17 +40,24 @@
  {% endif %}
 
  {% if page.layout != "post" %}
- {% else %}
- {% endif %}
- 
  <meta property="og:image" content="{{ site.banner }}">
- <meta property="og:title" content="{{ site.banner }}">
- <meta property="og:description" content="{{ site.banner }}">
+ <meta property="og:title" content="{{ site.name }}">
+ <meta property="og:description" content="{{ site.description }}">
+ <meta property="og:image:type" content="image/png">
+ <meta name="twitter:title" content="{{ site.name }}">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:image:alt" content="{{ site.description }}">
+ <meta name="twitter:description" content="{{ site.description }}">
+ {% else %}
+ <meta property="og:image" content="{{ site.banner }}">
+ <meta property="og:title" content="{{ page.title }}">
+ <meta property="og:description" content="{{ page.description }}">
  <meta property="og:image:type" content="image/png">
  <meta name="twitter:title" content="{{ page.title }}">
  <meta name="twitter:card" content="summary_large_image">
- <meta name="twitter:image:alt" content="{{ site.bannerDescription }}">
+ <meta name="twitter:image:alt" content="{{ page.description }}">
  <meta name="twitter:description" content="{{ page.description }}">
+ {% endif %}
 
  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}"
 </head>

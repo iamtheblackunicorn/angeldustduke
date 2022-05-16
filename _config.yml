@@ -36,7 +36,7 @@ menuText: "MENU"
 closeNavText: "CLOSE"
 viewText: "READ ME!"
 url: "https://angeldustduke.art"
-baseurl: ""
+baseurl: "/neon-future"
 feed:
   path: "rss.xml"
 plugins:
