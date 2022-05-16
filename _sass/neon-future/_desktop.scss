@@ -29,8 +29,8 @@ img.profile {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   padding: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -190,13 +190,15 @@ li.nav {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 0px;
   display: block;
   text-align: center;
 }
 
 a.nav {
   padding: 0px;
+  margin: 0px;
   font-size: 35px;
   color: $accentColor;
   text-decoration: underline;
@@ -292,14 +294,7 @@ img.emoji {
   border: none;
 }
 
-div.stripeBottom {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 10vh;
+div.stripeTop {
   background: repeating-linear-gradient(
     135deg,
     $accentColor,
@@ -307,4 +302,11 @@ div.stripeBottom {
     $mainColor 10px,
     $mainColor 20px
   );
+  margin: 0;
+  padding: 0;
+  top: 0;
+  height: 10vh;
+  width: 100vw;
+  left: 0;
+  right: 0;
 }
