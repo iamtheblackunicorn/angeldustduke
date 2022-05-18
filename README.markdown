@@ -42,11 +42,11 @@ If you want to use this theme for your own site, here's what you need to do.
   - Half an hour.
 - 2.) Fetch this website's source code:
 ```bash
-$ git clone https://your_github_token@github.com/iamtheblackunicorn/neon-future.git
+$ git clone https://your_github_token@github.com/iamtheblackunicorn/angeldustduke.git
 ```
 - 3.) Change directory into the source's root directory:
 ```bash
-$ cd neon-future
+$ cd angeldustduke
 ```
 - 4.) Install the dependencies:
 ```bash
