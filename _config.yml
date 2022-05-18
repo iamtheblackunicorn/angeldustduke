@@ -30,13 +30,14 @@ iconUrlIsAbsolute: false
 siteManifest: "/assets/images/favicons/manifest.json"
 144x144: "/assets/images/favicons/ms-icon-144x144.png"
 banner: "/assets/images/banner/banner.png"
-profile_pic: "/assets/images/logo/logo.svg"
+profile_pic: "/assets/images/logo/logo.png"
 motto: "LOVE IS THE MESSAGE!"
 menuText: "MENU"
 closeNavText: "CLOSE"
 viewText: "READ ME!"
-url: "https://blckunicorn.art"
-baseurl: "/neon-future"
+url: "https://angeldustduke.art"
+baseurl: ""
+future: true
 feed:
   path: "rss.xml"
 plugins:

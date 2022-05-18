@@ -1,16 +1,16 @@
 <p align="center">
- <img src="https://blckunicorn.art/neon-future/assets/images/banner/banner.png"/>
+ <img src="https://angeldustduke.art/assets/images/banner/banner.png"/>
 </p>
 
-# NEON FUTURE :pill: :racing_car: :fire:
+# Angeldust Duke :unicorn: :fire: :pill:
 
-***An elegant neon and futuristic theme for Jekyll.*** :pill: :racing_car: :fire:
+***Angeldust Duke: a bad b\*tch, a creative soul, and eccentric as f\*ck. :unicorn: :fire: :pill:***
 
-![GitHub CI](https://github.com/iamtheblackunicorn/neon-future/actions/workflows/jekyll.yml/badge.svg)
+![GitHub CI](https://github.com/iamtheblackunicorn/angeldustduke/actions/workflows/jekyll.yml/badge.svg)
 
 ## About :books:
 
-Because I like Bladerunner 2049 and the eighties, I decided to make this little theme. Since I love Jekyll, this is a Jekyll theme. Enjoy. :heart:
+Welcome to the Angeldust Duke's website. I will be filling this website as time goes along. For now this is all you need know: Mr. Angeldust Duke is: a bad b\*tch, a creative soul, and eccentric as f\*ck. This website is one of many experiments, enjoy! :)
 
 ## Features :test_tube:
 
@@ -125,5 +125,5 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
 - 10.) Enjoy. :heart_on_fire:
 
 ## Note :scroll:
-- *Neon Future :pill: :racing_car: :fire:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- *Angeldust Duke :unicorn: :fire: :pill:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
 - Licensed under the MIT license.
