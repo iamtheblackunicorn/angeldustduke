@@ -59,6 +59,8 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
 - 6.) Customize everything as you see fit:
   - You can change the site's base configuration by reading the file called `_config.yml`. Here's a list of all variables and what they do:
     - `mainColor`: Hexadecimal code for your site's main color.
+    - `bannerImageType`: What file type is your banner?
+    - `bannerIsAbsolute`: Are you fecthing your image from another server? `true` or `false`.
     - `accentColor`: Hexadecimal code for your site's accent color.
     - `hoverColor`: Hexadecimal code for your site's link-hover color.
     - `headingFont`: Font name of font for headings.
