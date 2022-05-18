@@ -38,26 +38,37 @@
  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.16x16 | prepend: site.baseurl }}">
  <meta name="msapplication-TileImage" content="{{ site.144x144 | prepend: site.baseurl }}">
  {% endif %}
+  
+ {% if site.bannerImageType == "png" %}
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:image:type" content="image/png">
+ {% else %}
+  <meta property="og:image:type" content="image/jpg">
+  <meta name="twitter:image:type" content="image/jpg">
+ {% endif %}
+  
+ {% if site.bannerIsAbsolute == true %}
+  <meta property="og:image" content="{{ site.banner }}">
+  <meta property="twitter:image" content="{{ site.banner }}">
+ {% else %}
+  <meta property="og:image" content="{{ site.banner | prepend: site.baseurl | absolute_url }}">
+  <meta property="twitter:image" content="{{ site.banner | prepend: site.baseurl | absolute_url }}">
+ {% endif %}
 
  {% if page.layout != "post" %}
- <meta property="og:image" content="{{ site.banner }}">
+ 
  <meta property="og:title" content="{{ site.name }}">
  <meta name="keywords" content="{{ site.keywords }}"/>
  <meta property="og:description" content="{{ site.description }}">
- <meta property="og:image:type" content="image/png">
  <meta name="twitter:title" content="{{ site.name }}">
  <meta name="twitter:card" content="summary_large_image">
- <meta property="twitter:image" content="{{ site.banner }}">
  <meta name="twitter:image:alt" content="{{ site.description }}">
  <meta name="twitter:description" content="{{ site.description }}">
  {% else %}
- <meta property="og:image" content="{{ site.banner }}">
  <meta name="keywords" content="{{ page.tags }}"/>
  <meta property="og:title" content="{{ page.title }}">
  <meta property="og:description" content="{{ page.description }}">
- <meta property="og:image:type" content="image/png">
  <meta name="twitter:title" content="{{ page.title }}">
- <meta property="twitter:image" content="{{ site.banner }}">
  <meta name="twitter:card" content="summary_large_image">
  <meta name="twitter:image:alt" content="{{ page.description }}">
  <meta name="twitter:description" content="{{ page.description }}">
