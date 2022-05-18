@@ -216,7 +216,7 @@ a.nav {
   margin: 0px;
   font-size: 35px;
   color: $accentColor;
-  text-decoration: underline;
+  text-decoration: none;
   transition-duration: 0.6s;
   font-family: $mainHeadingFont;
   text-shadow: 12px 2px 25px $accentColor;
@@ -224,7 +224,7 @@ a.nav {
 }
 
 a.nav:hover {
-  color: $hoverColor;
+  color: $secondaryHoverColor;
 }
 
 ul {
