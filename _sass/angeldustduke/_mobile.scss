@@ -25,6 +25,9 @@ Licensed under the MIT license.
   h2 {
     font-size: 35px;
   }
+  h2.pageTitle {
+    font-size: 48px;
+  }
   h3 {
     font-size: 32px;
   }
@@ -70,12 +73,15 @@ Licensed under the MIT license.
   div.stripeTop {
     height: 7vh;
   }
+  ul.tags {
+    margin-bottom: 10px !important;
+  }
   li.tags{
-    padding: 5px;
-    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 25px;
   }
   li.tags:hover {
-    border: 4px solid #000;
     padding: 10px;
   }
 }
