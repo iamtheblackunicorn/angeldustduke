@@ -31,7 +31,7 @@ iconUrlIsAbsolute: false
 siteManifest: "/assets/images/favicons/manifest.json"
 144x144: "/assets/images/favicons/ms-icon-144x144.png"
 banner: "/assets/images/banner/banner.png"
-profile_pic: "/assets/images/logo/logo.png"
+profile_pic: "/assets/images/logo/logo.svg"
 motto: "LOVE IS THE MESSAGE!"
 bannerIsAbsolute: false
 bannerImageType: "png"
