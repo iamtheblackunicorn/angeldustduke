@@ -33,6 +33,8 @@ siteManifest: "/assets/images/favicons/manifest.json"
 banner: "/assets/images/banner/banner.png"
 profile_pic: "/assets/images/logo/logo.png"
 motto: "LOVE IS THE MESSAGE!"
+bannerIsAbsolute: false
+bannerImageType: "png"
 menuText: "MENU"
 closeNavText: "CLOSE"
 viewText: "READ ME!"
