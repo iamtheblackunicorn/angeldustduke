@@ -196,6 +196,10 @@ li.nav {
   text-align: center;
 }
 
+li.nav:before{
+  content: "";
+}
+
 a.nav {
   padding: 0px;
   margin: 0px;
@@ -231,9 +235,16 @@ li {
   text-align: left;
   font-size: 35px;
   color: $accentColor;
-  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   font-family: $contentFont;
   text-shadow: 12px 2px 25px $accentColor;
+}
+
+li:before {
+  content: "-";
 }
 
 div.nav {
