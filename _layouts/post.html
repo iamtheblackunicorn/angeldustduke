@@ -5,6 +5,10 @@
   {% include heading.html %}
   {% include nav.html %}
   <div class="content">
+   <h2 class="pageTitle">{{ page.title }}</h2>
+   {% for tag in page.tags %}
+    <li class="tags">{{ tag }}</li>
+   {% endfor %}
    {{ content }}
   </div>
   {% include breaker.html %}
