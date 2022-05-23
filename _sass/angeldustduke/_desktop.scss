@@ -13,8 +13,8 @@ body, html {
   right: 0;
   background-color: $mainColor;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 img.profile {
@@ -362,4 +362,38 @@ li.tags:hover {
 }
 li.tags:before {
   content: "";
+}
+ul.specialEdition {
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  padding: 0px;
+  text-align: left;
+}
+li.specialEdition {
+  border-radius: 25px;
+  background-color: $accentColor;
+  color: $mainColor;
+  font-family: $headingFont;
+  font-size: 25px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  transition-duration: 0.6s;
+  border: none;
+  box-shadow: 1px 2px 25px $accentColor;
+}
+li.specialEdition:before {
+  content: "";
+}
+li.specialEdition:hover {
+  border: 4px solid $accentColor;
+  color: $accentColor;
+  padding: 15px;
+  background-color: $mainColor;
 }
