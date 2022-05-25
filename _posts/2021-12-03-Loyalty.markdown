@@ -1,6 +1,8 @@
 ---
 layout: "post"
 title: "Loyalty"
+contentType: "Story"
+contentIndex: "VII"
 description: "A story of reflection, disappointment, and permanent peace."
 show: true
 date_time: "03/12/2021"

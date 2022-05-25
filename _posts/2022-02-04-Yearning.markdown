@@ -1,6 +1,8 @@
 ---
 layout: "post"
 title: "Yearning"
+contentType: "Story"
+contentIndex: "IX"
 description: "When dating on the net goes wrong."
 show: true
 date_time: "04/02/2022"

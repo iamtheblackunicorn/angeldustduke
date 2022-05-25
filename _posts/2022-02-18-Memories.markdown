@@ -1,6 +1,8 @@
 ---
 layout: "post"
 title: "Memories"
+contentType: "story"
+contentIndex: "X"
 description: "A story about times past and the memories that remain."
 show: true
 date_time: "18/02/2022"

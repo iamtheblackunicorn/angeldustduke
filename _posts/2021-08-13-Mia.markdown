@@ -1,5 +1,7 @@
 ---
 layout: "post"
+contentType: "Story"
+contentIndex: "I"
 date_time: "13/08/2021"
 title: "Mia"
 description: "The mysterious girl from the white mansion."

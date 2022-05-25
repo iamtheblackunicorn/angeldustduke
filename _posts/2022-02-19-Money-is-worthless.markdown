@@ -1,6 +1,8 @@
 ---
 layout: post
 date_time: "2022/02/19"
+contentType: "Post"
+contentIndex: "II"
 description: "Musings on why money is intrinsically worthless and what the word \"fiat\" means."
 title: "Money is worthless!"
 show: true

@@ -1,6 +1,8 @@
 ---
 layout: post
 date_time: "2022/02/10"
+contentType: "Post"
+contentIndex: "I"
 description: "Welcome to the Angeldust Duke's abode! A short post explaining what this whole thing is for. ;)"
 title: "Welcome!"
 show: true

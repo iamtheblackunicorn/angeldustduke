@@ -1,6 +1,8 @@
 ---
 layout: "post"
 title: "Peace"
+contentType: "Story"
+contentIndex: "VIII"
 description: "When you find peace."
 show: true
 date_time: "17/12/2021"

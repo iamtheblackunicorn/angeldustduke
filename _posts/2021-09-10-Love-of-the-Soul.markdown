@@ -1,5 +1,7 @@
 ---
 layout: "post"
+contentType: "Story"
+contentIndex: "III"
 title: "Love of the Soul"
 description: "Two loving souls can flourish on each other but also cause each other to wither away."
 show: true

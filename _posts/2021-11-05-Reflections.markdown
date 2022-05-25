@@ -1,6 +1,8 @@
 ---
 layout: "post"
 title: "Reflections"
+contentType: "Story"
+contentIndex: "VI"
 description: "Reflections on life, love, and human nature."
 show: true
 date_time: "05/11/2021"

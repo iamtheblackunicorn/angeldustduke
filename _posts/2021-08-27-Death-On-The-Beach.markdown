@@ -1,5 +1,7 @@
 ---
 layout: "post"
+contentType: "Story"
+contentIndex: "II"
 date_time: "27/08/2021"
 title: "Death on the Beach"
 description: "How an angel broke its wings."

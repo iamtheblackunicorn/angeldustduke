@@ -1,6 +1,8 @@
 ---
 layout: post
 date_time: "2022/03/18"
+contentType: "Post"
+contentIndex: "IV"
 description: "How to write your blog in a fast and efficient language like Rust."
 title: "How to write a blog in Rust."
 show: true

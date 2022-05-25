@@ -1,5 +1,7 @@
 ---
 layout: "post"
+contentType: "Story"
+contentIndex: "IV"
 title: "A journey through human nature"
 description: "A journey through human nature. The worst and the best."
 show: true

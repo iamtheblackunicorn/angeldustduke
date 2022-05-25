@@ -1,5 +1,7 @@
 ---
 layout: "post"
+contentType: "Story"
+contentIndex: "V"
 title: "Inspiration through loss"
 description: "How a lonely writer found inspiration in her lost girlfriend."
 show: true

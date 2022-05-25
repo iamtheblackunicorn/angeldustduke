@@ -29,8 +29,12 @@ img.profile {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   padding: 0;
+  transition-duration: 0.6s;
   margin-top: 45px;
   margin-bottom: 40px;
+}
+img.profile:hover {
+  border: 15px solid $accentColor;
 }
 
 h1 {
@@ -376,6 +380,7 @@ li.specialEdition {
   border-radius: 25px;
   background-color: $accentColor;
   color: $mainColor;
+  text-transform: uppercase;
   font-family: $headingFont;
   font-size: 25px;
   display: inline-block;

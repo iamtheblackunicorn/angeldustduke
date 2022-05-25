@@ -13,6 +13,9 @@
       <li class="specialEdition">{{ site.specialEditonString }}</li>
      </ul>
      {% else %}
+     <ul class="specialEdition">
+      <li class="specialEdition">{{ post.contentType }} {{ post.contentIndex }}</li>
+     </ul>
      {% endif %}
     <p>{{ post.date_time }}</p>
     <p>{{ post.description }}</p>
