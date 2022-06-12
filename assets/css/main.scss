@@ -10,22 +10,26 @@ $contentFontUrl: "{{ site.contentFontUrl }}";
 $tertiaryFont: "{{ site.tertiaryFont }}";
 $tertiaryFontUrl: "{{ site.tertiaryFontUrl }}";
 $mainHeadingFont: "{{ site.mainHeadingFont }}";
+$mainHeadingFontType: "{{ site.mainHeadingFontType }}";
+$tertiaryFontType: "{{ site.tertiaryFontType }}";
+$headingFontType: "{{ site.headingFontType }}";
+$contentFontType: "{{ site.contentFontType }}";
 $mainHeadingFontUrl: "{{ site.mainHeadingFontUrl }}";
 @font-face {
   font-family: "#{$contentFont}";
-  src: url("#{$contentFontUrl}") format('truetype');
+  src: url("#{$contentFontUrl}") format('#{$contentFontType}');
 }
 @font-face {
   font-family: "#{$headingFont}";
-  src: url("#{$headingFontUrl}") format('truetype');
+  src: url("#{$headingFontUrl}") format('#{$headingFontType}');
 }
 @font-face {
   font-family: "#{$mainHeadingFont}";
-  src: url("#{$mainHeadingFontUrl}") format('truetype');
+  src: url("#{$mainHeadingFontUrl}") format('#{$mainHeadingFontType}');
 }
 @font-face {
   font-family: "#{$tertiaryFont}";
-  src: url("#{$tertiaryFontUrl}") format('truetype');
+  src: url("#{$tertiaryFontUrl}") format('#{$tertiaryFontType}');
 }
 @charset 'utf-8';
 @import 'angeldustduke';
