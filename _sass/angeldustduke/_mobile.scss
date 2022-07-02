@@ -13,13 +13,15 @@ Licensed under the MIT license.
     margin-bottom: 20px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   h1:hover {
     font-size: 47px;
   }
   p.subtitle {
     font-size: 35px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   div.content {
     border: 6px solid $accentColor;
@@ -27,24 +29,31 @@ Licensed under the MIT license.
   }
   h2 {
     font-size: 35px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   h2.pageTitle {
     font-size: 48px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   h3 {
     font-size: 32px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   h4 {
     font-size: 29px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   p {
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   button.postLink {
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   a {
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   img {
     margin-top: 30px;
@@ -59,12 +68,14 @@ Licensed under the MIT license.
   }
   a.nav {
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   a.nav:hover {
     font-size: 30px;
   }
   li {
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   code {
     font-size: 25px;
@@ -88,8 +99,13 @@ Licensed under the MIT license.
     padding: 10px;
     margin-left: 10px;
     font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
   li.tags:hover {
     padding: 10px;
+  }
+  li.specialEdition {
+    font-size: 25px;
+    text-shadow: 2px $shadowOffsetMobile $hoverColor;
   }
 }

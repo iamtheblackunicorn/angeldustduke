@@ -40,14 +40,14 @@ img.profile:hover {
 h1 {
   color: $accentColor;
   font-family: $mainHeadingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: center;
   padding: 0px;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 20px;
-  font-size: 60px;
+  font-size: 70px;
   transition-duration: 0.6s;
 }
 
@@ -58,7 +58,7 @@ h1:hover {
 p.subtitle {
   color: $accentColor;
   font-family: $headingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   margin: 0px;
   text-align: center;
   padding: 0px;
@@ -67,7 +67,7 @@ p.subtitle {
 
 div.content {
   border: 8px solid $accentColor;
-  box-shadow: 6px 7px $hoverColor;
+  box-shadow: 6px $shadowOffsetDesktop $hoverColor;
   padding: 20px;
   margin: 0 auto;
   display: block;
@@ -98,7 +98,7 @@ h2 {
   text-transform: uppercase;
   color: $accentColor;
   font-family: $headingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -109,7 +109,7 @@ h2.pageTitle {
   text-transform: uppercase;
   color: $accentColor;
   font-family: $headingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: center;
 }
 
@@ -120,7 +120,7 @@ h3 {
   text-transform: uppercase;
   color: $accentColor;
   font-family: $headingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -131,7 +131,7 @@ h4 {
   text-transform: uppercase;
   color: $accentColor;
   font-family: $headingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -141,7 +141,7 @@ p {
   font-size: 35px;
   color: $accentColor;
   font-family: $contentFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -154,7 +154,7 @@ button.postLink {
   border: 5px solid $accentColor;
   background-color: $hoverColor;
   color: $accentColor;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   font-family: $contentFont;
 }
 
@@ -169,7 +169,7 @@ a {
   text-decoration: underline;
   transition-duration: 0.6s;
   font-family: $contentFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -220,7 +220,7 @@ a.nav {
   text-decoration: none;
   transition-duration: 0.6s;
   font-family: $mainHeadingFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
   text-align: left;
 }
 
@@ -252,7 +252,7 @@ li {
   padding-bottom: 0px;
   padding-top: 0px;
   font-family: $contentFont;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
 }
 
 li:before {
@@ -352,7 +352,7 @@ li.tags{
   border-radius: 25px;
   transition-duration: 0.6s;
   border: 3px solid $accentColor;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
 }
 li.tags:hover {
   padding: 15px;
@@ -384,7 +384,7 @@ li.specialEdition {
   margin-left: 0px;
   transition-duration: 0.6s;
   border: 3px solid $accentColor;
-  text-shadow: 2px 7px $hoverColor;
+  text-shadow: 2px $shadowOffsetDesktop $hoverColor;
 }
 li.specialEdition:before {
   content: "";

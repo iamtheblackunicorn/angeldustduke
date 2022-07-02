@@ -1,5 +1,7 @@
 ---
 ---
+$shadowOffsetDesktop: 7px;
+$shadowOffsetMobile: 5px;
 $mainColor: {{ site.mainColor }};
 $accentColor: {{ site.accentColor }};
 $hoverColor: {{ site.hoverColor }};
