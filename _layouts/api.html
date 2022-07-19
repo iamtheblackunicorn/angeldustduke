@@ -1,0 +1,19 @@
+{
+{% for post in site.posts %}
+ {% if forloop.last %}
+ {{ post.title | jsonify }}: [
+    {{ post.description | jsonify }},
+    {{ post.date_time | jsonify }},
+    {{ post.tags | jsonify }},
+    {{ post.content | strip_html | jsonify }}
+ ]
+ {% else %}
+ {{ post.title | jsonify }}: [
+    {{ post.description | jsonify }},
+    {{ post.date_time | jsonify }},
+    {{ post.tags | jsonify }},
+    {{ post.content | strip_html | jsonify }}
+ ],
+ {% endif %}
+{% endfor %}
+}
