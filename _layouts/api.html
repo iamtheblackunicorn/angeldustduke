@@ -4,24 +4,24 @@
    {% if forloop.last %}
    {
       "id": {{ forloop.index }}, 
-      "data": [
-         {{ post.title | jsonify }},
-         {{ post.description | jsonify }},
-         {{ post.date_time | jsonify }},
-         {{ post.tags | jsonify }},
-         {{ post.content | jsonify }}
-      ]
+      "data": {
+         "title":{{ post.title | jsonify }},
+         "description":{{ post.description | jsonify }},
+         "date":{{ post.date_time | jsonify }},
+         "tags":{{ post.tags | jsonify }},
+         "content":{{ post.content | jsonify }}
+      }
    }
    {% else %}
    {
       "id": {{ forloop.index }}, 
-      "data": [
-         {{ post.title | jsonify }},
-         {{ post.description | jsonify }},
-         {{ post.date_time | jsonify }},
-         {{ post.tags | jsonify }},
-         {{ post.content | jsonify }}
-      ]
+      "data": {
+         "title":{{ post.title | jsonify }},
+         "description":{{ post.description | jsonify }},
+         "date":{{ post.date_time | jsonify }},
+         "tags":{{ post.tags | jsonify }},
+         "content":{{ post.content | jsonify }}
+      }
    },
    {% endif %}
    {% endfor %}
